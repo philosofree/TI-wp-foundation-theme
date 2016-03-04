@@ -1,0 +1,12 @@
+.main-navigation{
+    float:right;
+}
+ul.menu{
+    padding: 20px 0px;
+    @include breakpoint(small only) {
+        padding: 5px 0px;
+    }
+}
+.current-menu-item a{
+    color: black;
+}

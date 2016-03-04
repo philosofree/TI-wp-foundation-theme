@@ -1,0 +1,9 @@
+.button-primary{
+    @extend .button;
+    @extend .hollow;
+    @include rounded(1000);
+}
+#register, #wppb-recover-password-button, #edit_profile{
+    @extend .hollow;
+    @include rounded(1000);
+}
