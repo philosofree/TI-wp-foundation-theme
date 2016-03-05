@@ -2,7 +2,7 @@
 
 **This is a Wordpress Theme using [Foundation for Sites 6](http://foundation.zurb.com/sites)**
 
-The [Underscores Wordpress Starter Theme](http://underscores.me/) was used as a starting point for this theme.
+The [Underscores Wordpress Starter Theme](http://underscores.me/) was used as a starting point for this theme and many Foundation setup features were borrowed from the [JointsWP Theme](https://github.com/JeremyEnglert/JointsWP).
 
 Follow the instructions below to get started. 
 

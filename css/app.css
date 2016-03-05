@@ -1623,7 +1623,10 @@ kbd {
   h3 {
     page-break-after: avoid; } }
 
-.button, .button-primary {
+.button, .button-primary,
+#register,
+#wppb-recover-password-button,
+#edit_profile {
   display: inline-block;
   text-align: center;
   line-height: 1;
@@ -1638,131 +1641,323 @@ kbd {
   font-size: 0.9rem;
   background-color: #009900;
   color: #fefefe; }
-  [data-whatinput='mouse'] .button, [data-whatinput='mouse'] .button-primary {
+  [data-whatinput='mouse'] .button, [data-whatinput='mouse'] .button-primary, [data-whatinput='mouse']
+  #register, [data-whatinput='mouse']
+  #wppb-recover-password-button, [data-whatinput='mouse']
+  #edit_profile {
     outline: 0; }
-  .button:hover, .button-primary:hover, .button:focus, .button-primary:focus {
+  .button:hover, .button-primary:hover,
+  #register:hover,
+  #wppb-recover-password-button:hover,
+  #edit_profile:hover, .button:focus, .button-primary:focus,
+  #register:focus,
+  #wppb-recover-password-button:focus,
+  #edit_profile:focus {
     background-color: #008200;
     color: #fefefe; }
-  .button.tiny, .tiny.button-primary {
+  .button.tiny, .tiny.button-primary,
+  .tiny#register,
+  .tiny#wppb-recover-password-button,
+  .tiny#edit_profile {
     font-size: 0.6rem; }
-  .button.small, .small.button-primary {
+  .button.small, .small.button-primary,
+  .small#register,
+  .small#wppb-recover-password-button,
+  .small#edit_profile {
     font-size: 0.75rem; }
-  .button.large, .large.button-primary {
+  .button.large, .large.button-primary,
+  .large#register,
+  .large#wppb-recover-password-button,
+  .large#edit_profile {
     font-size: 1.25rem; }
-  .button.expanded, .expanded.button-primary {
+  .button.expanded, .expanded.button-primary,
+  .expanded#register,
+  .expanded#wppb-recover-password-button,
+  .expanded#edit_profile {
     display: block;
     width: 100%;
     margin-left: 0;
     margin-right: 0; }
-  .button.primary, .primary.button-primary {
+  .button.primary, .primary.button-primary,
+  .primary#register,
+  .primary#wppb-recover-password-button,
+  .primary#edit_profile {
     background-color: #009900;
     color: #fefefe; }
-    .button.primary:hover, .primary.button-primary:hover, .button.primary:focus, .primary.button-primary:focus {
+    .button.primary:hover, .primary.button-primary:hover,
+    .primary#register:hover,
+    .primary#wppb-recover-password-button:hover,
+    .primary#edit_profile:hover, .button.primary:focus, .primary.button-primary:focus,
+    .primary#register:focus,
+    .primary#wppb-recover-password-button:focus,
+    .primary#edit_profile:focus {
       background-color: #007a00;
       color: #fefefe; }
-  .button.secondary, .secondary.button-primary {
+  .button.secondary, .secondary.button-primary,
+  .secondary#register,
+  .secondary#wppb-recover-password-button,
+  .secondary#edit_profile {
     background-color: #0F6937;
     color: #fefefe; }
-    .button.secondary:hover, .secondary.button-primary:hover, .button.secondary:focus, .secondary.button-primary:focus {
+    .button.secondary:hover, .secondary.button-primary:hover,
+    .secondary#register:hover,
+    .secondary#wppb-recover-password-button:hover,
+    .secondary#edit_profile:hover, .button.secondary:focus, .secondary.button-primary:focus,
+    .secondary#register:focus,
+    .secondary#wppb-recover-password-button:focus,
+    .secondary#edit_profile:focus {
       background-color: #0c542c;
       color: #fefefe; }
-  .button.success, .success.button-primary {
+  .button.success, .success.button-primary,
+  .success#register,
+  .success#wppb-recover-password-button,
+  .success#edit_profile {
     background-color: #3ADB76;
     color: #fefefe; }
-    .button.success:hover, .success.button-primary:hover, .button.success:focus, .success.button-primary:focus {
+    .button.success:hover, .success.button-primary:hover,
+    .success#register:hover,
+    .success#wppb-recover-password-button:hover,
+    .success#edit_profile:hover, .button.success:focus, .success.button-primary:focus,
+    .success#register:focus,
+    .success#wppb-recover-password-button:focus,
+    .success#edit_profile:focus {
       background-color: #22bb5b;
       color: #fefefe; }
-  .button.warning, .warning.button-primary {
+  .button.warning, .warning.button-primary,
+  .warning#register,
+  .warning#wppb-recover-password-button,
+  .warning#edit_profile {
     background-color: #FFAE00;
     color: #fefefe; }
-    .button.warning:hover, .warning.button-primary:hover, .button.warning:focus, .warning.button-primary:focus {
+    .button.warning:hover, .warning.button-primary:hover,
+    .warning#register:hover,
+    .warning#wppb-recover-password-button:hover,
+    .warning#edit_profile:hover, .button.warning:focus, .warning.button-primary:focus,
+    .warning#register:focus,
+    .warning#wppb-recover-password-button:focus,
+    .warning#edit_profile:focus {
       background-color: #cc8b00;
       color: #fefefe; }
-  .button.alert, .alert.button-primary {
+  .button.alert, .alert.button-primary,
+  .alert#register,
+  .alert#wppb-recover-password-button,
+  .alert#edit_profile {
     background-color: #ED5840;
     color: #fefefe; }
-    .button.alert:hover, .alert.button-primary:hover, .button.alert:focus, .alert.button-primary:focus {
+    .button.alert:hover, .alert.button-primary:hover,
+    .alert#register:hover,
+    .alert#wppb-recover-password-button:hover,
+    .alert#edit_profile:hover, .button.alert:focus, .alert.button-primary:focus,
+    .alert#register:focus,
+    .alert#wppb-recover-password-button:focus,
+    .alert#edit_profile:focus {
       background-color: #dc3015;
       color: #fefefe; }
-  .button.tunapanda-dg, .tunapanda-dg.button-primary {
+  .button.tunapanda-dg, .tunapanda-dg.button-primary,
+  .tunapanda-dg#register,
+  .tunapanda-dg#wppb-recover-password-button,
+  .tunapanda-dg#edit_profile {
     background-color: #0F6937;
     color: #fefefe; }
-    .button.tunapanda-dg:hover, .tunapanda-dg.button-primary:hover, .button.tunapanda-dg:focus, .tunapanda-dg.button-primary:focus {
+    .button.tunapanda-dg:hover, .tunapanda-dg.button-primary:hover,
+    .tunapanda-dg#register:hover,
+    .tunapanda-dg#wppb-recover-password-button:hover,
+    .tunapanda-dg#edit_profile:hover, .button.tunapanda-dg:focus, .tunapanda-dg.button-primary:focus,
+    .tunapanda-dg#register:focus,
+    .tunapanda-dg#wppb-recover-password-button:focus,
+    .tunapanda-dg#edit_profile:focus {
       background-color: #0c542c;
       color: #fefefe; }
-  .button.tunapanda-lg, .tunapanda-lg.button-primary {
+  .button.tunapanda-lg, .tunapanda-lg.button-primary,
+  .tunapanda-lg#register,
+  .tunapanda-lg#wppb-recover-password-button,
+  .tunapanda-lg#edit_profile {
     background-color: #8CC541;
     color: #fefefe; }
-    .button.tunapanda-lg:hover, .tunapanda-lg.button-primary:hover, .button.tunapanda-lg:focus, .tunapanda-lg.button-primary:focus {
+    .button.tunapanda-lg:hover, .tunapanda-lg.button-primary:hover,
+    .tunapanda-lg#register:hover,
+    .tunapanda-lg#wppb-recover-password-button:hover,
+    .tunapanda-lg#edit_profile:hover, .button.tunapanda-lg:focus, .tunapanda-lg.button-primary:focus,
+    .tunapanda-lg#register:focus,
+    .tunapanda-lg#wppb-recover-password-button:focus,
+    .tunapanda-lg#edit_profile:focus {
       background-color: #70a131;
       color: #fefefe; }
-  .button.tunapanda-brown, .tunapanda-brown.button-primary {
+  .button.tunapanda-brown, .tunapanda-brown.button-primary,
+  .tunapanda-brown#register,
+  .tunapanda-brown#wppb-recover-password-button,
+  .tunapanda-brown#edit_profile {
     background-color: #544841;
     color: #fefefe; }
-    .button.tunapanda-brown:hover, .tunapanda-brown.button-primary:hover, .button.tunapanda-brown:focus, .tunapanda-brown.button-primary:focus {
+    .button.tunapanda-brown:hover, .tunapanda-brown.button-primary:hover,
+    .tunapanda-brown#register:hover,
+    .tunapanda-brown#wppb-recover-password-button:hover,
+    .tunapanda-brown#edit_profile:hover, .button.tunapanda-brown:focus, .tunapanda-brown.button-primary:focus,
+    .tunapanda-brown#register:focus,
+    .tunapanda-brown#wppb-recover-password-button:focus,
+    .tunapanda-brown#edit_profile:focus {
       background-color: #433a34;
       color: #fefefe; }
-  .button.hollow, .button-primary, .button#register, #register.button-primary, .button#wppb-recover-password-button, #wppb-recover-password-button.button-primary, .button#edit_profile, #edit_profile.button-primary {
+  .button.hollow, .button-primary,
+  #register,
+  #wppb-recover-password-button,
+  #edit_profile {
     border: 1px solid #009900;
     color: #009900; }
-    .button.hollow, .button-primary, .button#register, #register.button-primary, .button#wppb-recover-password-button, #wppb-recover-password-button.button-primary, .button#edit_profile, #edit_profile.button-primary, .button.hollow:hover, .button-primary:hover, .button#register:hover, #register.button-primary:hover, .button#wppb-recover-password-button:hover, #wppb-recover-password-button.button-primary:hover, .button#edit_profile:hover, #edit_profile.button-primary:hover, .button.hollow:focus, .button-primary:focus, .button#register:focus, #register.button-primary:focus, .button#wppb-recover-password-button:focus, #wppb-recover-password-button.button-primary:focus, .button#edit_profile:focus, #edit_profile.button-primary:focus {
+    .button.hollow, .button-primary,
+    #register,
+    #wppb-recover-password-button,
+    #edit_profile, .button.hollow:hover, .button-primary:hover,
+    #register:hover,
+    #wppb-recover-password-button:hover,
+    #edit_profile:hover, .button.hollow:focus, .button-primary:focus,
+    #register:focus,
+    #wppb-recover-password-button:focus,
+    #edit_profile:focus {
       background-color: transparent; }
-    .button.hollow:hover, .button-primary:hover, .button#register:hover, #register.button-primary:hover, .button#wppb-recover-password-button:hover, #wppb-recover-password-button.button-primary:hover, .button#edit_profile:hover, #edit_profile.button-primary:hover, .button.hollow:focus, .button-primary:focus, .button#register:focus, #register.button-primary:focus, .button#wppb-recover-password-button:focus, #wppb-recover-password-button.button-primary:focus, .button#edit_profile:focus, #edit_profile.button-primary:focus {
+    .button.hollow:hover, .button-primary:hover,
+    #register:hover,
+    #wppb-recover-password-button:hover,
+    #edit_profile:hover, .button.hollow:focus, .button-primary:focus,
+    #register:focus,
+    #wppb-recover-password-button:focus,
+    #edit_profile:focus {
       border-color: #004d00;
       color: #004d00; }
-    .button.hollow.primary, .primary.button-primary, .button.primary#register, .primary#register.button-primary, .button.primary#wppb-recover-password-button, .primary#wppb-recover-password-button.button-primary, .button.primary#edit_profile, .primary#edit_profile.button-primary {
+    .button.hollow.primary, .primary.button-primary,
+    .primary#register,
+    .primary#wppb-recover-password-button,
+    .primary#edit_profile {
       border: 1px solid #009900;
       color: #009900; }
-      .button.hollow.primary:hover, .primary.button-primary:hover, .button.primary#register:hover, .primary#register.button-primary:hover, .button.primary#wppb-recover-password-button:hover, .primary#wppb-recover-password-button.button-primary:hover, .button.primary#edit_profile:hover, .primary#edit_profile.button-primary:hover, .button.hollow.primary:focus, .primary.button-primary:focus, .button.primary#register:focus, .primary#register.button-primary:focus, .button.primary#wppb-recover-password-button:focus, .primary#wppb-recover-password-button.button-primary:focus, .button.primary#edit_profile:focus, .primary#edit_profile.button-primary:focus {
+      .button.hollow.primary:hover, .primary.button-primary:hover,
+      .primary#register:hover,
+      .primary#wppb-recover-password-button:hover,
+      .primary#edit_profile:hover, .button.hollow.primary:focus, .primary.button-primary:focus,
+      .primary#register:focus,
+      .primary#wppb-recover-password-button:focus,
+      .primary#edit_profile:focus {
         border-color: #004d00;
         color: #004d00; }
-    .button.hollow.secondary, .secondary.button-primary, .button.secondary#register, .secondary#register.button-primary, .button.secondary#wppb-recover-password-button, .secondary#wppb-recover-password-button.button-primary, .button.secondary#edit_profile, .secondary#edit_profile.button-primary {
+    .button.hollow.secondary, .secondary.button-primary,
+    .secondary#register,
+    .secondary#wppb-recover-password-button,
+    .secondary#edit_profile {
       border: 1px solid #0F6937;
       color: #0F6937; }
-      .button.hollow.secondary:hover, .secondary.button-primary:hover, .button.secondary#register:hover, .secondary#register.button-primary:hover, .button.secondary#wppb-recover-password-button:hover, .secondary#wppb-recover-password-button.button-primary:hover, .button.secondary#edit_profile:hover, .secondary#edit_profile.button-primary:hover, .button.hollow.secondary:focus, .secondary.button-primary:focus, .button.secondary#register:focus, .secondary#register.button-primary:focus, .button.secondary#wppb-recover-password-button:focus, .secondary#wppb-recover-password-button.button-primary:focus, .button.secondary#edit_profile:focus, .secondary#edit_profile.button-primary:focus {
+      .button.hollow.secondary:hover, .secondary.button-primary:hover,
+      .secondary#register:hover,
+      .secondary#wppb-recover-password-button:hover,
+      .secondary#edit_profile:hover, .button.hollow.secondary:focus, .secondary.button-primary:focus,
+      .secondary#register:focus,
+      .secondary#wppb-recover-password-button:focus,
+      .secondary#edit_profile:focus {
         border-color: #08351c;
         color: #08351c; }
-    .button.hollow.success, .success.button-primary, .button.success#register, .success#register.button-primary, .button.success#wppb-recover-password-button, .success#wppb-recover-password-button.button-primary, .button.success#edit_profile, .success#edit_profile.button-primary {
+    .button.hollow.success, .success.button-primary,
+    .success#register,
+    .success#wppb-recover-password-button,
+    .success#edit_profile {
       border: 1px solid #3ADB76;
       color: #3ADB76; }
-      .button.hollow.success:hover, .success.button-primary:hover, .button.success#register:hover, .success#register.button-primary:hover, .button.success#wppb-recover-password-button:hover, .success#wppb-recover-password-button.button-primary:hover, .button.success#edit_profile:hover, .success#edit_profile.button-primary:hover, .button.hollow.success:focus, .success.button-primary:focus, .button.success#register:focus, .success#register.button-primary:focus, .button.success#wppb-recover-password-button:focus, .success#wppb-recover-password-button.button-primary:focus, .button.success#edit_profile:focus, .success#edit_profile.button-primary:focus {
+      .button.hollow.success:hover, .success.button-primary:hover,
+      .success#register:hover,
+      .success#wppb-recover-password-button:hover,
+      .success#edit_profile:hover, .button.hollow.success:focus, .success.button-primary:focus,
+      .success#register:focus,
+      .success#wppb-recover-password-button:focus,
+      .success#edit_profile:focus {
         border-color: #157539;
         color: #157539; }
-    .button.hollow.warning, .warning.button-primary, .button.warning#register, .warning#register.button-primary, .button.warning#wppb-recover-password-button, .warning#wppb-recover-password-button.button-primary, .button.warning#edit_profile, .warning#edit_profile.button-primary {
+    .button.hollow.warning, .warning.button-primary,
+    .warning#register,
+    .warning#wppb-recover-password-button,
+    .warning#edit_profile {
       border: 1px solid #FFAE00;
       color: #FFAE00; }
-      .button.hollow.warning:hover, .warning.button-primary:hover, .button.warning#register:hover, .warning#register.button-primary:hover, .button.warning#wppb-recover-password-button:hover, .warning#wppb-recover-password-button.button-primary:hover, .button.warning#edit_profile:hover, .warning#edit_profile.button-primary:hover, .button.hollow.warning:focus, .warning.button-primary:focus, .button.warning#register:focus, .warning#register.button-primary:focus, .button.warning#wppb-recover-password-button:focus, .warning#wppb-recover-password-button.button-primary:focus, .button.warning#edit_profile:focus, .warning#edit_profile.button-primary:focus {
+      .button.hollow.warning:hover, .warning.button-primary:hover,
+      .warning#register:hover,
+      .warning#wppb-recover-password-button:hover,
+      .warning#edit_profile:hover, .button.hollow.warning:focus, .warning.button-primary:focus,
+      .warning#register:focus,
+      .warning#wppb-recover-password-button:focus,
+      .warning#edit_profile:focus {
         border-color: #805700;
         color: #805700; }
-    .button.hollow.alert, .alert.button-primary, .button.alert#register, .alert#register.button-primary, .button.alert#wppb-recover-password-button, .alert#wppb-recover-password-button.button-primary, .button.alert#edit_profile, .alert#edit_profile.button-primary {
+    .button.hollow.alert, .alert.button-primary,
+    .alert#register,
+    .alert#wppb-recover-password-button,
+    .alert#edit_profile {
       border: 1px solid #ED5840;
       color: #ED5840; }
-      .button.hollow.alert:hover, .alert.button-primary:hover, .button.alert#register:hover, .alert#register.button-primary:hover, .button.alert#wppb-recover-password-button:hover, .alert#wppb-recover-password-button.button-primary:hover, .button.alert#edit_profile:hover, .alert#edit_profile.button-primary:hover, .button.hollow.alert:focus, .alert.button-primary:focus, .button.alert#register:focus, .alert#register.button-primary:focus, .button.alert#wppb-recover-password-button:focus, .alert#wppb-recover-password-button.button-primary:focus, .button.alert#edit_profile:focus, .alert#edit_profile.button-primary:focus {
+      .button.hollow.alert:hover, .alert.button-primary:hover,
+      .alert#register:hover,
+      .alert#wppb-recover-password-button:hover,
+      .alert#edit_profile:hover, .button.hollow.alert:focus, .alert.button-primary:focus,
+      .alert#register:focus,
+      .alert#wppb-recover-password-button:focus,
+      .alert#edit_profile:focus {
         border-color: #8a1e0d;
         color: #8a1e0d; }
-    .button.hollow.tunapanda-dg, .tunapanda-dg.button-primary, .button.tunapanda-dg#register, .tunapanda-dg#register.button-primary, .button.tunapanda-dg#wppb-recover-password-button, .tunapanda-dg#wppb-recover-password-button.button-primary, .button.tunapanda-dg#edit_profile, .tunapanda-dg#edit_profile.button-primary {
+    .button.hollow.tunapanda-dg, .tunapanda-dg.button-primary,
+    .tunapanda-dg#register,
+    .tunapanda-dg#wppb-recover-password-button,
+    .tunapanda-dg#edit_profile {
       border: 1px solid #0F6937;
       color: #0F6937; }
-      .button.hollow.tunapanda-dg:hover, .tunapanda-dg.button-primary:hover, .button.tunapanda-dg#register:hover, .tunapanda-dg#register.button-primary:hover, .button.tunapanda-dg#wppb-recover-password-button:hover, .tunapanda-dg#wppb-recover-password-button.button-primary:hover, .button.tunapanda-dg#edit_profile:hover, .tunapanda-dg#edit_profile.button-primary:hover, .button.hollow.tunapanda-dg:focus, .tunapanda-dg.button-primary:focus, .button.tunapanda-dg#register:focus, .tunapanda-dg#register.button-primary:focus, .button.tunapanda-dg#wppb-recover-password-button:focus, .tunapanda-dg#wppb-recover-password-button.button-primary:focus, .button.tunapanda-dg#edit_profile:focus, .tunapanda-dg#edit_profile.button-primary:focus {
+      .button.hollow.tunapanda-dg:hover, .tunapanda-dg.button-primary:hover,
+      .tunapanda-dg#register:hover,
+      .tunapanda-dg#wppb-recover-password-button:hover,
+      .tunapanda-dg#edit_profile:hover, .button.hollow.tunapanda-dg:focus, .tunapanda-dg.button-primary:focus,
+      .tunapanda-dg#register:focus,
+      .tunapanda-dg#wppb-recover-password-button:focus,
+      .tunapanda-dg#edit_profile:focus {
         border-color: #08351c;
         color: #08351c; }
-    .button.hollow.tunapanda-lg, .tunapanda-lg.button-primary, .button.tunapanda-lg#register, .tunapanda-lg#register.button-primary, .button.tunapanda-lg#wppb-recover-password-button, .tunapanda-lg#wppb-recover-password-button.button-primary, .button.tunapanda-lg#edit_profile, .tunapanda-lg#edit_profile.button-primary {
+    .button.hollow.tunapanda-lg, .tunapanda-lg.button-primary,
+    .tunapanda-lg#register,
+    .tunapanda-lg#wppb-recover-password-button,
+    .tunapanda-lg#edit_profile {
       border: 1px solid #8CC541;
       color: #8CC541; }
-      .button.hollow.tunapanda-lg:hover, .tunapanda-lg.button-primary:hover, .button.tunapanda-lg#register:hover, .tunapanda-lg#register.button-primary:hover, .button.tunapanda-lg#wppb-recover-password-button:hover, .tunapanda-lg#wppb-recover-password-button.button-primary:hover, .button.tunapanda-lg#edit_profile:hover, .tunapanda-lg#edit_profile.button-primary:hover, .button.hollow.tunapanda-lg:focus, .tunapanda-lg.button-primary:focus, .button.tunapanda-lg#register:focus, .tunapanda-lg#register.button-primary:focus, .button.tunapanda-lg#wppb-recover-password-button:focus, .tunapanda-lg#wppb-recover-password-button.button-primary:focus, .button.tunapanda-lg#edit_profile:focus, .tunapanda-lg#edit_profile.button-primary:focus {
+      .button.hollow.tunapanda-lg:hover, .tunapanda-lg.button-primary:hover,
+      .tunapanda-lg#register:hover,
+      .tunapanda-lg#wppb-recover-password-button:hover,
+      .tunapanda-lg#edit_profile:hover, .button.hollow.tunapanda-lg:focus, .tunapanda-lg.button-primary:focus,
+      .tunapanda-lg#register:focus,
+      .tunapanda-lg#wppb-recover-password-button:focus,
+      .tunapanda-lg#edit_profile:focus {
         border-color: #46641f;
         color: #46641f; }
-    .button.hollow.tunapanda-brown, .tunapanda-brown.button-primary, .button.tunapanda-brown#register, .tunapanda-brown#register.button-primary, .button.tunapanda-brown#wppb-recover-password-button, .tunapanda-brown#wppb-recover-password-button.button-primary, .button.tunapanda-brown#edit_profile, .tunapanda-brown#edit_profile.button-primary {
+    .button.hollow.tunapanda-brown, .tunapanda-brown.button-primary,
+    .tunapanda-brown#register,
+    .tunapanda-brown#wppb-recover-password-button,
+    .tunapanda-brown#edit_profile {
       border: 1px solid #544841;
       color: #544841; }
-      .button.hollow.tunapanda-brown:hover, .tunapanda-brown.button-primary:hover, .button.tunapanda-brown#register:hover, .tunapanda-brown#register.button-primary:hover, .button.tunapanda-brown#wppb-recover-password-button:hover, .tunapanda-brown#wppb-recover-password-button.button-primary:hover, .button.tunapanda-brown#edit_profile:hover, .tunapanda-brown#edit_profile.button-primary:hover, .button.hollow.tunapanda-brown:focus, .tunapanda-brown.button-primary:focus, .button.tunapanda-brown#register:focus, .tunapanda-brown#register.button-primary:focus, .button.tunapanda-brown#wppb-recover-password-button:focus, .tunapanda-brown#wppb-recover-password-button.button-primary:focus, .button.tunapanda-brown#edit_profile:focus, .tunapanda-brown#edit_profile.button-primary:focus {
+      .button.hollow.tunapanda-brown:hover, .tunapanda-brown.button-primary:hover,
+      .tunapanda-brown#register:hover,
+      .tunapanda-brown#wppb-recover-password-button:hover,
+      .tunapanda-brown#edit_profile:hover, .button.hollow.tunapanda-brown:focus, .tunapanda-brown.button-primary:focus,
+      .tunapanda-brown#register:focus,
+      .tunapanda-brown#wppb-recover-password-button:focus,
+      .tunapanda-brown#edit_profile:focus {
         border-color: #2a2421;
         color: #2a2421; }
-  .button.disabled, .disabled.button-primary, .button[disabled], [disabled].button-primary {
+  .button.disabled, .disabled.button-primary,
+  .disabled#register,
+  .disabled#wppb-recover-password-button,
+  .disabled#edit_profile, .button[disabled], [disabled].button-primary,
+  [disabled]#register,
+  [disabled]#wppb-recover-password-button,
+  [disabled]#edit_profile {
     opacity: 0.25;
     cursor: not-allowed;
     pointer-events: none; }
-  .button.dropdown::after, .dropdown.button-primary::after {
+  .button.dropdown::after, .dropdown.button-primary::after,
+  .dropdown#register::after,
+  .dropdown#wppb-recover-password-button::after,
+  .dropdown#edit_profile::after {
     content: '';
     display: block;
     width: 0;
@@ -1776,7 +1971,10 @@ kbd {
     float: right;
     margin-left: 1em;
     display: inline-block; }
-  .button.arrow-only::after, .arrow-only.button-primary::after {
+  .button.arrow-only::after, .arrow-only.button-primary::after,
+  .arrow-only#register::after,
+  .arrow-only#wppb-recover-password-button::after,
+  .arrow-only#edit_profile::after {
     margin-left: 0;
     float: none;
     top: -0.1em; }
@@ -2076,6 +2274,87 @@ select {
     outline: 0; }
   .close-button:hover, .close-button:focus {
     color: #0a0a0a; }
+
+.is-drilldown {
+  position: relative;
+  overflow: hidden; }
+  .is-drilldown li {
+    display: block !important; }
+
+.is-drilldown-submenu {
+  position: absolute;
+  top: 0;
+  left: 100%;
+  z-index: -1;
+  height: 100%;
+  width: 100%;
+  background: #fefefe;
+  transition: -webkit-transform 0.15s linear;
+  transition: transform 0.15s linear;
+  transition: transform 0.15s linear, -webkit-transform 0.15s linear; }
+  .is-drilldown-submenu.is-active {
+    z-index: 1;
+    display: block;
+    -webkit-transform: translateX(-100%);
+        -ms-transform: translateX(-100%);
+            transform: translateX(-100%); }
+  .is-drilldown-submenu.is-closing {
+    -webkit-transform: translateX(100%);
+        -ms-transform: translateX(100%);
+            transform: translateX(100%); }
+
+.is-drilldown-submenu-parent > a {
+  position: relative; }
+  .is-drilldown-submenu-parent > a::after {
+    content: '';
+    display: block;
+    width: 0;
+    height: 0;
+    border: inset 6px;
+    border-color: transparent transparent transparent #009900;
+    border-left-style: solid;
+    border-right-width: 0;
+    position: absolute;
+    top: 50%;
+    margin-top: -6px;
+    right: 1rem; }
+
+.js-drilldown-back > a::before {
+  content: '';
+  display: block;
+  width: 0;
+  height: 0;
+  border: inset 6px;
+  border-color: transparent #009900 transparent transparent;
+  border-right-style: solid;
+  border-left-width: 0;
+  border-left-width: 0;
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 0.75rem; }
+
+.dropdown-pane {
+  background-color: #f8f8f8;
+  border: 1px solid #cacaca;
+  border-radius: 0;
+  display: block;
+  font-size: 1rem;
+  padding: 1rem;
+  position: absolute;
+  visibility: hidden;
+  width: 300px;
+  z-index: 10; }
+  .dropdown-pane.is-open {
+    visibility: visible; }
+
+.dropdown-pane.tiny {
+  width: 100px; }
+
+.dropdown-pane.small {
+  width: 200px; }
+
+.dropdown-pane.large {
+  width: 400px; }
 
 .dropdown.menu > li.opens-left > .is-dropdown-submenu {
   left: auto;
@@ -2436,6 +2715,158 @@ select {
 .no-js [data-responsive-menu] ul {
   display: none; }
 
+.menu-icon {
+  position: relative;
+  display: inline-block;
+  vertical-align: middle;
+  cursor: pointer;
+  width: 20px;
+  height: 16px; }
+  .menu-icon::after {
+    content: '';
+    position: absolute;
+    display: block;
+    width: 100%;
+    height: 2px;
+    background: #fefefe;
+    top: 0;
+    left: 0;
+    box-shadow: 0 7px 0 #fefefe, 0 14px 0 #fefefe; }
+  .menu-icon:hover::after {
+    background: #cacaca;
+    box-shadow: 0 7px 0 #cacaca, 0 14px 0 #cacaca; }
+
+.menu-icon.dark {
+  position: relative;
+  display: inline-block;
+  vertical-align: middle;
+  cursor: pointer;
+  width: 20px;
+  height: 16px; }
+  .menu-icon.dark::after {
+    content: '';
+    position: absolute;
+    display: block;
+    width: 100%;
+    height: 2px;
+    background: #0a0a0a;
+    top: 0;
+    left: 0;
+    box-shadow: 0 7px 0 #0a0a0a, 0 14px 0 #0a0a0a; }
+  .menu-icon.dark:hover::after {
+    background: #8a8a8a;
+    box-shadow: 0 7px 0 #8a8a8a, 0 14px 0 #8a8a8a; }
+
+html,
+body {
+  height: 100%; }
+
+.off-canvas-wrapper {
+  width: 100%;
+  overflow-x: hidden;
+  position: relative;
+  -webkit-backface-visibility: hidden;
+          backface-visibility: hidden;
+  -webkit-overflow-scrolling: auto; }
+
+.off-canvas-wrapper-inner {
+  position: relative;
+  width: 100%;
+  transition: -webkit-transform 0.5s ease;
+  transition: transform 0.5s ease;
+  transition: transform 0.5s ease, -webkit-transform 0.5s ease; }
+  .off-canvas-wrapper-inner::before, .off-canvas-wrapper-inner::after {
+    content: ' ';
+    display: table;
+    -webkit-flex-basis: 0;
+        -ms-flex-preferred-size: 0;
+            flex-basis: 0;
+    -webkit-order: 1;
+        -ms-flex-order: 1;
+            order: 1; }
+  .off-canvas-wrapper-inner::after {
+    clear: both; }
+
+.off-canvas-content,
+.off-canvas-content {
+  min-height: 100%;
+  background: #f8f8f8;
+  transition: -webkit-transform 0.5s ease;
+  transition: transform 0.5s ease;
+  transition: transform 0.5s ease, -webkit-transform 0.5s ease;
+  -webkit-backface-visibility: hidden;
+          backface-visibility: hidden;
+  z-index: 1;
+  padding-bottom: 0.1px;
+  box-shadow: 0 0 10px rgba(10, 10, 10, 0.5); }
+
+.js-off-canvas-exit {
+  display: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(254, 254, 254, 0.25);
+  cursor: pointer;
+  transition: background 0.5s ease; }
+
+.off-canvas {
+  position: absolute;
+  background: #e6e6e6;
+  z-index: -1;
+  max-height: 100%;
+  overflow-y: auto;
+  -webkit-transform: translateX(0);
+      -ms-transform: translateX(0);
+          transform: translateX(0); }
+  [data-whatinput='mouse'] .off-canvas {
+    outline: 0; }
+  .off-canvas.position-left {
+    left: -250px;
+    top: 0;
+    width: 250px; }
+    .is-open-left {
+      -webkit-transform: translateX(250px);
+          -ms-transform: translateX(250px);
+              transform: translateX(250px); }
+  .off-canvas.position-right {
+    right: -250px;
+    top: 0;
+    width: 250px; }
+    .is-open-right {
+      -webkit-transform: translateX(-250px);
+          -ms-transform: translateX(-250px);
+              transform: translateX(-250px); }
+
+@media screen and (min-width: 40em) {
+  .position-left.reveal-for-medium {
+    left: 0;
+    z-index: auto;
+    position: fixed; }
+    .position-left.reveal-for-medium ~ .off-canvas-content {
+      margin-left: 250px; }
+  .position-right.reveal-for-medium {
+    right: 0;
+    z-index: auto;
+    position: fixed; }
+    .position-right.reveal-for-medium ~ .off-canvas-content {
+      margin-right: 250px; } }
+
+@media screen and (min-width: 64em) {
+  .position-left.reveal-for-large {
+    left: 0;
+    z-index: auto;
+    position: fixed; }
+    .position-left.reveal-for-large ~ .off-canvas-content {
+      margin-left: 250px; }
+  .position-right.reveal-for-large {
+    right: 0;
+    z-index: auto;
+    position: fixed; }
+    .position-right.reveal-for-large ~ .off-canvas-content {
+      margin-right: 250px; } }
+
 table {
   width: 100%;
   margin-bottom: 1rem;
@@ -2632,7 +3063,10 @@ table.hover tr:nth-of-type(even):hover {
   .top-bar .input-group-field {
     width: 100%;
     margin-right: 0; }
-  .top-bar input.button, .top-bar input.button-primary {
+  .top-bar input.button, .top-bar input.button-primary, .top-bar
+  input#register, .top-bar
+  input#wppb-recover-password-button, .top-bar
+  input#edit_profile {
     width: auto; }
 
 @media screen and (max-width: 39.9375em) {
@@ -3461,18 +3895,43 @@ table.hover tr:nth-of-type(even):hover {
   float: right; }
 
 ul.menu {
-  padding: 20px 0px; }
-  @media screen and (max-width: 39.9375em) {
+  padding: 5px 0px; }
+  @media screen and (min-width: 40em) {
     ul.menu {
-      padding: 5px 0px; } }
+      padding: 20px 0px; } }
+
+ul#logo-container,
+ul#logo-container a {
+  padding: 0; }
 
 .current-menu-item a {
   color: black; }
 
-.button-primary {
-  border-radius: 1000px; }
+.top-bar,
+.top-bar ul,
+.off-canvas {
+  background-color: white; }
 
-#register, #wppb-recover-password-button, #edit_profile {
+.menu-icon:after {
+  background: #009900;
+  box-shadow: 0 7px 0 #009900, 0 14px 0 #009900; }
+
+.menu-icon:hover:after {
+  background: #006600;
+  box-shadow: 0 7px 0 #006600, 0 14px 0 #006600; }
+
+.top-bar-left,
+.top-bar-right {
+  width: auto; }
+
+.top-bar {
+  box-shadow: 0 0px 5px rgba(0, 0, 0, 0.5);
+  margin-bottom: 0.625rem; }
+
+.button-primary,
+#register,
+#wppb-recover-password-button,
+#edit_profile {
   border-radius: 1000px; }
 
 #header {
@@ -3480,20 +3939,21 @@ ul.menu {
   box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.2); }
 
 #site-logo {
-  padding: 10px;
-  max-height: 80px; }
-  @media screen and (max-width: 39.9375em) {
+  max-height: 50px;
+  width: auto; }
+  @media screen and (min-width: 40em) {
     #site-logo {
-      max-height: 50px;
-      width: auto; } }
+      padding: 10px;
+      max-height: 80px; } }
 
 .site-description {
+  display: none;
   position: relative;
   top: 10px;
   color: #e0e0e0;
   font-size: 2.5rem;
   font-weight: bold;
   line-height: 1; }
-  @media screen and (max-width: 39.9375em) {
+  @media screen and (min-width: 40em) {
     .site-description {
-      display: none; } }
+      display: block; } }

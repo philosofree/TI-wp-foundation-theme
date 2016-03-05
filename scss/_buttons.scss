@@ -1,9 +1,10 @@
-.button-primary{
+// Overrides for Wordpress Profile Builder plugin buttons
+.button-primary,
+#register, 
+#wppb-recover-password-button, 
+#edit_profile{
     @extend .button;
     @extend .hollow;
     @include rounded(1000);
 }
-#register, #wppb-recover-password-button, #edit_profile{
-    @extend .hollow;
-    @include rounded(1000);
-}
+

@@ -3,22 +3,24 @@
     box-shadow: 0px 1px 5px rgba(0,0,0,0.2);
 }
 #site-logo{
-    padding: 10px;
-    max-height: 80px;
-    @include breakpoint(small only) {
-        max-height: 50px;
-        width: auto;
+    max-height: 50px;
+    width: auto;
+    
+    @include breakpoint(medium) {
+        padding: 10px;
+        max-height: 80px;    
     }
 }
 .site-description{
+    display: none;
     position: relative;
     top: 10px;
     color: #e0e0e0;
     font-size: rem-calc(40);
     font-weight: bold;
     line-height: 1;
-    @include breakpoint(small only) {
-        display: none;  
+    @include breakpoint(medium){
+        display: block;
     }
 }
 

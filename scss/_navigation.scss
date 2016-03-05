@@ -2,11 +2,40 @@
     float:right;
 }
 ul.menu{
-    padding: 20px 0px;
-    @include breakpoint(small only) {
-        padding: 5px 0px;
+    padding: 5px 0px;
+    @include breakpoint(medium) {
+        padding: 20px 0px;
     }
+}
+ul#logo-container,
+ul#logo-container a{
+    padding: 0;
 }
 .current-menu-item a{
     color: black;
+}
+.top-bar, 
+.top-bar ul,
+.off-canvas{
+    background-color: white;
+}
+.menu-icon{
+    &:after{
+        background: $primary-color;
+        box-shadow: 0 7px 0 $primary-color, 0 14px 0 $primary-color;
+    }
+    &:hover{
+        &:after{
+            background: darken( $primary-color, 10% );
+            box-shadow: 0 7px 0 darken( $primary-color, 10% ), 0 14px 0 darken( $primary-color, 10% );    
+        }
+    }
+}
+.top-bar-left, 
+.top-bar-right {
+    width: auto;
+}
+.top-bar{
+    box-shadow: 0 0px 5px rgba(0,0,0,0.5);
+    margin-bottom: rem-calc(10);
 }
