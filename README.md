@@ -1,6 +1,6 @@
 # Tunapanda Wordpress Foundation Theme
 
-**This is a Wordpress Theme using [Foundation for Sites 6](http://foundation.zurb.com/sites)**
+**This is a Wordpress Theme using [Foundation for Sites 6](http://foundation.zurb.com/sites) for the Tunapanda swag platform**
 
 The [Underscores Wordpress Starter Theme](http://underscores.me/) was used as a starting point for this theme and many Foundation setup features were borrowed from the [JointsWP Theme](https://github.com/JeremyEnglert/JointsWP).
 
