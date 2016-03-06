@@ -14,10 +14,13 @@ ul#logo-container a{
 .current-menu-item a{
     color: black;
 }
-.top-bar, 
-.top-bar ul,
-.off-canvas{
-    background-color: white;
+.top-bar{
+    box-shadow: 0 0px 5px rgba(0,0,0,0.5);
+    margin-bottom: rem-calc(10);
+}
+.top-bar-left, 
+.top-bar-right {
+    width: auto;
 }
 .menu-icon{
     &:after{
@@ -31,11 +34,4 @@ ul#logo-container a{
         }
     }
 }
-.top-bar-left, 
-.top-bar-right {
-    width: auto;
-}
-.top-bar{
-    box-shadow: 0 0px 5px rgba(0,0,0,0.5);
-    margin-bottom: rem-calc(10);
-}
+
